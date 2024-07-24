@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/outputDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/PaymentLabe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payment"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/monthlypaymentlabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/monthly_payment"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/monthlypaymentview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/totaltaxlabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_tax_paid"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/totaltaxpaidview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/totalintpaidlabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_interest_paid"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/totalinterestpaidview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/payoffdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payoff_date"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/payoffdateview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/butReset2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reset" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_200"
+            app:srcCompat="@drawable/_65_1651021_animated_house_png_with_animated_house_png_casa_vector" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

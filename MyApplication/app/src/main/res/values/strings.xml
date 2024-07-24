@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="payment">Payment:</string>
+    <string name="payoff_date">Payoff Date:</string>
+    <string name="total_interest_paid">Total Interest Paid:</string>
+    <string name="total_tax_paid">Total Tax Paid:</string>
+    <string name="monthly_payment">Monthly Payment:</string>
+    <string name="reset">Reset</string>
+    <string name="_15">15</string>
+    <string name="_20">20</string>
+    <string name="_25">25</string>
+    <string name="_30">30</string>
+    <string name="_40">40</string>
+</resources>
